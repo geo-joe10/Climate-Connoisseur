@@ -27,5 +27,6 @@ The game connects to the **WeatherAPI**, retrieving real-time temperature and co
 1. Download the game files from this repository  
 2. Install dependencies:
      ccbackground.png
+     CC (2).exe
      
      
