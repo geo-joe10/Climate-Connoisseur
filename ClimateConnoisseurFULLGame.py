@@ -5,7 +5,7 @@ from tkinter import messagebox
 from PIL import Image, ImageTk
 
 
-# List of predefined locations
+# List of locations
 locations = [
     {"city": "Durham", "country": "USA"},
     {"city": "Paris", "country": "France"},
@@ -167,7 +167,7 @@ locations = [
 
 # Function to fetch weather data
 def get_weather(city):
-    api_key = "8a2a9d9f356f4707877202528242912"  # Replace with your WeatherAPI key
+    api_key = "8a2a9d9f356f4707877202528242912"  #  WeatherAPI key (expired)
     base_url = "http://api.weatherapi.com/v1/current.json"
     params = {"key": api_key, "q": city}
     response = requests.get(base_url, params=params)
@@ -323,3 +323,4 @@ initialize_ui()
 next_round()
 
 app.mainloop()
+
